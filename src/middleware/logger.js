@@ -1,5 +1,6 @@
-module.exports = (req, _, next) => {
-  // Log out the request path
-  console.log(req.path);
-  next();
-};
+const logger = (req, _, next) => {
+  console.log(req.path)
+  next()
+}
+
+module.exports = logger
