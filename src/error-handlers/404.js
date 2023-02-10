@@ -1,0 +1,1 @@
+module.exports = (_, res) => res.status(404).send('Route unreachable/does not exist');
