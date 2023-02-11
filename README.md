@@ -1,5 +1,6 @@
 # basic-express-server
 
+
 Author: Michael Gazaway
 
 Setup: None
@@ -7,6 +8,7 @@ Setup: None
 How to initialize/run the app: npm start
 
 UML:
+![diagram](https://ibb.co/y609VDg)
 
 
 
@@ -22,5 +24,8 @@ Update a record using PUT
 Destroy a record using DELETE
 
 ## Tests
-Jest
+npx jest
+
+tests for CRUD methods and bad route/bad method
+
 
